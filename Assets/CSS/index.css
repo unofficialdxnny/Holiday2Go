@@ -1,3 +1,42 @@
 body{
     background-color: rgb(194, 194, 194);
 }
+
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+}
+
+.navbar .logo-link {
+    margin-right: auto; 
+}
+
+.navbar img {
+    position: absolute;
+    height: 50px; 
+    left: 100px;
+    top: 11px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.navbar li {
+    list-style: none;
+}
