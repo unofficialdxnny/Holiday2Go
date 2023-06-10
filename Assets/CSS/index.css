@@ -85,18 +85,9 @@ body {
     margin-bottom: 30px;
   }
   
-  .cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff6600;
-    color: #000000;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .cta-button:hover {
-    background-color: #e65c00;
+  footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px;
   }
   
