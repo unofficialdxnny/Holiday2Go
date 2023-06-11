@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: rgb(194, 194, 194);
+    background-color: #14171A;
     font-family: 'Satisfy', cursive;
     background-image: url("");
     background-repeat: no-repeat;
@@ -61,14 +61,14 @@ body {
   
 
   .hero {
-    background-image: url('https://images3.alphacoders.com/105/105487.jpg');
+    background-image: url('https://wallpaperaccess.com/full/222685.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #000000;
+    color: #ffffff;
   }
   
   .hero-content {
@@ -86,8 +86,9 @@ body {
   }
   
   footer {
-    background-color: #f8f8f8;
+    background-color: transparent;
     text-align: center;
     padding: 10px;
+    color: white;
   }
   
