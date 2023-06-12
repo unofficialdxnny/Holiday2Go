@@ -7,6 +7,7 @@
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -60,7 +61,7 @@ body {
   }
   
 
-  .hero {
+  .main {
     background-image: url('https://wallpaperaccess.com/full/222685.jpg');
     background-size: cover;
     background-position: center;
@@ -71,16 +72,16 @@ body {
     color: #ffffff;
   }
   
-  .hero-content {
+  .main-content {
     text-align: center;
   }
   
-  .hero-content h1 {
+  .main-content h1 {
     font-size: 36px;
     margin-bottom: 20px;
   }
   
-  .hero-content p {
+  .main-content p {
     font-size: 18px;
     margin-bottom: 30px;
   }
@@ -112,3 +113,34 @@ body {
    button:active {
     transform: translate(0em, 0.2em);
    }
+
+
+   .about-section {
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .about-image {
+    flex: 1;
+  }
+  
+  .about-text {
+    flex: 2;
+    padding: 0 20px;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .about-section {
+      flex-direction: column;
+    }
+    
+    .about-text {
+      padding: 20px 0;
+    }
+  }
+
+
+
