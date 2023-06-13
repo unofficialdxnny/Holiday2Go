@@ -62,7 +62,7 @@ body {
   
 
   .main {
-    background-image: url('https://wallpaperaccess.com/full/222685.jpg');
+    background-image: url('https://rare-gallery.com/uploads/posts/5338477-tower-eiffel-tower-night-architecture-light-tourism-tourist-structure-landmark-glow-looking-up-paris-tall-eiffel-france-popular-sky-vertical-lightning-night-sky-free-stock-photos.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -124,6 +124,8 @@ body {
   
   .about-image {
     flex: 1;
+    width: 600px;
+    height: 300px;
   }
   
   .about-text {
