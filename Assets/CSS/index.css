@@ -43,23 +43,7 @@ body {
     color: #333;
   }
   
-  /* Media Query for Responsive Design */
-  @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .links {
-      margin-top: 10px;
-    }
-  
-    .links a {
-      display: block;
-      margin-bottom: 5px;
-    }
-  }
-  
+
 
   .main {
     background-image: url('https://github.com/unofficialdxnny/Holiday2Go/blob/main/Assets/Images/main_bg.jpg?raw=true');
@@ -136,6 +120,20 @@ body {
   }
   
   @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .links {
+      margin-top: 10px;
+    }
+  
+    .links a {
+      display: block;
+      margin-bottom: 5px;
+    }
+  
     .about-section {
       flex-direction: column;
     }
