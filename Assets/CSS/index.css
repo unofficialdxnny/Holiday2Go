@@ -16,7 +16,21 @@ body {
     background-image: url("");
     background-repeat: no-repeat;
     background-position-x: center;
+    margin: 0;
+    padding: 0;
 }
+
+
+.fade-in { 
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
 
 ::-webkit-scrollbar {
     display: none;
@@ -102,6 +116,17 @@ body {
     transform: translate(0em, 0.2em);
    }
 
+   .image-row {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .image-row img {
+    max-width: 100%;
+    height: auto;
+    margin: 2px;
+  }
+
 
   @media (max-width: 768px) {
     .navbar {
@@ -121,6 +146,11 @@ body {
     .about-section {
       flex-direction: column;
     }
+    
+    .image-row img {
+      margin: 1px;
+    }
+  
     
   }
 
