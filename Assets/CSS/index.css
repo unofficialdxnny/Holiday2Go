@@ -64,6 +64,10 @@ body {
     font-size: 36px;
     margin-bottom: 20px;
   }
+
+  .main-content #num {
+    color: red;
+  }
   
   .main-content p {
     font-size: 18px;
@@ -99,26 +103,6 @@ body {
    }
 
 
-   .about-section {
-    background-color: ;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  .about-image {
-    flex: 1;
-    width: 600px;
-    height: 300px;
-  }
-  
-  .about-text {
-    flex: 2;
-    padding: 0 20px;
-    color: white;
- 
-  }
-  
   @media (max-width: 768px) {
     .navbar {
       flex-direction: column;
@@ -138,9 +122,6 @@ body {
       flex-direction: column;
     }
     
-    .about-text {
-      padding: 20px 0;
-    }
   }
 
 
