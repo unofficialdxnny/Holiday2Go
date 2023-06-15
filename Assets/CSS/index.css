@@ -127,9 +127,7 @@ body {
     margin: 2px;
   }
 
-#tajmahal:hover .overlay{
-  overlay: 1;
-}
+
 
   @media (max-width: 768px) {
     .navbar {
