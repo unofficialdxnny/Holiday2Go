@@ -15,7 +15,7 @@ body {
     font-family: 'Satisfy', cursive;
     background-image: url("");
     background-repeat: no-repeat;
-    background-position-x: center;
+    background-position-x: center; 
     margin: 0;
     padding: 0;
 }
@@ -127,6 +127,9 @@ body {
     margin: 2px;
   }
 
+#tajmahal:hover .overlay{
+  overlay: 1;
+}
 
   @media (max-width: 768px) {
     .navbar {

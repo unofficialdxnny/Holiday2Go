@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+
+* {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #14171A;
+    font-family: 'Satisfy', cursive;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position-x: center; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.fade-in { 
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar {
+    position: fixed;
+    top: 10;
+    left: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 60px; /* Adjust the height as needed */
+  }
+  
+  .links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
