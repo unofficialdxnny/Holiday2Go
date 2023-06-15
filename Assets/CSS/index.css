@@ -151,6 +151,12 @@ body {
     .image-row img {
       margin: 1px;
     }
+
+    .image-row img {
+      max-width: 100%;
+      height: 50%;
+      margin: 2px;
+    }
   
     
   }
