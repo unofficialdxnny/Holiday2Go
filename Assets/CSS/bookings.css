@@ -60,6 +60,10 @@ li a:hover {
   background-color: #868686;
 }
 
+.contact {
+  float: right;
+}
+
 .active {
   background-color: gold;
 }
