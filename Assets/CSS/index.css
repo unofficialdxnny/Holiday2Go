@@ -141,6 +141,8 @@ button:hover {
     max-width: 100%;
     height: auto;
     margin: 2px;
+    border-radius: 0.25rem;
+    border: 2px dotted #ffffff;
   }
 
 
