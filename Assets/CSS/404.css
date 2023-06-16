@@ -50,23 +50,27 @@ body {
   }
 
   button {
-    font-size: 17px;
-    padding: 0.5em 2em;
-    border: transparent;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-    background: dodgerblue;
-    color: white;
-    border-radius: 4px;
-   }
-   
-   button:hover {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
-   }
-   
-   button:active {
-    transform: translate(0em, 0.2em);
-   }
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    padding: 0 16px;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    border: 1px solid #dddbda;
+    color: #0070d2;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+  
+  
+  }
+  
+  button:hover {
+    background-color: #858585; 
+  } 
+  
 
 
 span {
