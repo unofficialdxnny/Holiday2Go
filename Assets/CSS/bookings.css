@@ -36,26 +36,34 @@ body {
     display: none;
 }
 
-.navbar {
-    position: fixed;
-    top: 10;
-    left: 0;
-    width: 100%;
-    background-color: #f8f8f8;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo img {
-    height: 60px; /* Adjust the height as needed */
-  }
-  
-  .links a {
-    margin-right: 10px;
-    text-decoration: none;
-    color: #333;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #868686;
+}
+
+.active {
+  background-color: gold;
+}
+
   
 
   footer {
