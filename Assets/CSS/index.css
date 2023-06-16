@@ -170,7 +170,13 @@ button:hover {
   transition: opacity 0.3s ease;
 }
 
-.image-overlay h2,
+.image-overlay h2{
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+
 .image-overlay p {
   margin: 0;
   padding: 5px;
