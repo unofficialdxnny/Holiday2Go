@@ -39,12 +39,19 @@ a {
     display: none;
 }
 
+
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: transparent;
+  opacity: 1;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
 }
 
 li {
@@ -52,8 +59,9 @@ li {
 }
 
 li a {
+  opacity: 100;
   display: block;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -70,7 +78,6 @@ li a:hover {
 .active {
   background-color: gold;
 }
-
   
 
   footer {
