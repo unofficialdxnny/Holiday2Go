@@ -215,6 +215,21 @@ button:hover {
     height: auto;
     margin: 2px;
   }
+
+  .image-overlay h2{
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  
+  .image-overlay p {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: 5px;
+  }
 }
 
 
