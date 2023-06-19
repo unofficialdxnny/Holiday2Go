@@ -87,6 +87,27 @@ li a:hover {
     color: white;
   }
 
+
+
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  input[type=text],
+  input[type=submit] {
+  
+    margin: 10px 0 0 0;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgb(139, 139, 139);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
 
 
