@@ -97,8 +97,8 @@ li a:hover {
   }
   
   input[type=text],
+  input[type=date],
   input[type=submit] {
-  
     margin: 10px 0 0 0;
     border: 0;
     box-shadow: 0 0 15px 4px rgb(139, 139, 139);
