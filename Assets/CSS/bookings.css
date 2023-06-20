@@ -17,7 +17,19 @@ body {
     background-repeat: no-repeat;
     background-position-x: center; 
     margin: 0;
+    color: white;
     padding: 0;
+
+  }
+
+
+.main-content #num {
+  color: red;
+}
+
+
+#num {
+  color: red;
 }
 
 
