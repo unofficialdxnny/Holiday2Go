@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
   }
   
@@ -49,3 +49,13 @@ a {
     .active {
       background-color: gold;
     }
+
+.header {
+    background-image: url('https://holiday2go.netlify.app/Assets/Images/header.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 45vh;
+    width: 100%;
+    
+}
