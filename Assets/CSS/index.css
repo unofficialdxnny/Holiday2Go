@@ -57,36 +57,48 @@ a {
       background-color: gold;
     }
 
-.header {
-    background-image: url('https://holiday2go.netlify.app/Assets/Images/header.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    height: 45vh;
-    width: 100%;
+    .header {
+      position: relative;
+      height: 45vh;
+      width: 100%;
+    }
     
-}
-
-.header-heading  {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-decoration: underline;
-    text-decoration-color: black;
-  }
-
-
-  .header-para  {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 250%);
+    .header img {
+      width: 100%;
+      height: auto;
+    }
     
-  }
-
-
-#num {
-    color: red;
-
-}
+    .header-heading {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-decoration: underline;
+      text-decoration-color: black;
+      color: white;
+      z-index: 1;
+    }
+    
+    .header-para {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      z-index: 1;
+    }
+    
+    #num {
+      color: red;
+    }
+    
+    @media only screen and (max-width: 768px) {
+      .header-heading {
+        font-size: 24px;
+      }
+    
+      .header-para {
+        font-size: 16px;
+      }
+    }
+    
