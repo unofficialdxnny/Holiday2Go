@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
 *{
 
 }
 
 body {
-    
+    background-color: white;
+    font-family: 'Kaushan Script', cursive;
+
 }
 
 a {
@@ -16,6 +21,7 @@ a {
   
     ul {
       list-style-type: none;
+
       margin: 0;
       padding: 0;
       overflow: hidden;
@@ -58,4 +64,12 @@ a {
     height: 45vh;
     width: 100%;
     
+    
 }
+
+h1  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
