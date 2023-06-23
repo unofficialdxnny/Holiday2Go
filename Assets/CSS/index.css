@@ -58,14 +58,12 @@ a {
     }
 
 .header {
-    background-image: url('https://holiday2go.netlify.app/Assets/Images/header.png');
+    background-image: url('https://holiday2go.netlify.app/Assets/Images/header.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     height: 45vh;
     width: 100%;
-    outline: dotted;
-    outline-color: black;
     
 }
 
