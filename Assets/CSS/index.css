@@ -8,6 +8,7 @@
 body {
     background-color: white;
     font-family: 'Kaushan Script', cursive;
+    margin: 0;
 
 }
 
@@ -25,7 +26,7 @@ a {
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: black;
+      background-color: #202124;
       opacity: 1;
       position: fixed;
       width: 100%;
@@ -57,13 +58,14 @@ a {
     }
 
 .header {
-    background-image: url('https://holiday2go.netlify.app/Assets/Images/header.jpeg');
+    background-image: url('https://holiday2go.netlify.app/Assets/Images/header.png');
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     height: 45vh;
     width: 100%;
-    
+    outline: dotted;
+    outline-color: black;
     
 }
 
