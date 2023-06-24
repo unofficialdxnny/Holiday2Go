@@ -162,6 +162,10 @@ button:hover {
   
 }
 
+.imgrow img {
+  width: 100%; 
+}
+
 .imgrow:hover {
   transform: scale(1.1);
 
@@ -194,10 +198,8 @@ button:hover {
   }
   
   .imgrow {
-    flex: 33%;
-    padding: 10px;
-  
-    
+    width: 500px;
   }
+
 }
 
