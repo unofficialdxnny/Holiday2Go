@@ -150,17 +150,24 @@ button:hover {
 .gallery {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 
   
 }
 
-.imagerow {
-  flex: 33.33%;
-  padding: 5px;
+.imgrow {
+  display: flex;
+  justify-content: space-between;
+  transition: transform 1s ease;
+  
+}
+
+.imgrow:hover {
+  transform: scale(1.1);
 
   
 }
+
 
 @media (max-width: 768px) {
   .navbar {
@@ -177,9 +184,20 @@ button:hover {
     margin-bottom: 5px;
   }
 
-  .imgrow {
-    width: 100%;
-  }
 
+  .gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    
+  }
+  
+  .imgrow {
+    flex: 33%;
+    padding: 10px;
+  
+    
+  }
 }
 
