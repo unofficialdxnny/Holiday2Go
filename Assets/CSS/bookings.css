@@ -90,7 +90,7 @@ li a:hover {
 .active {
   background-color: gold;
 }
-  
+
 
   footer {
     background-color: transparent;
@@ -107,7 +107,7 @@ li a:hover {
     align-items: center;
     height: 100vh;
   }
-  
+
   input[type=text],
   input[type=date],
   input[type=submit] {
@@ -120,7 +120,7 @@ li a:hover {
     justify-content: center;
     align-items: center;
   }
-  
+
 
 
   @media (max-width: 768px) {
@@ -128,16 +128,16 @@ li a:hover {
       flex-direction: column;
       align-items: flex-start;
     }
-  
+
     .links {
       margin-top: 10px;
     }
-  
+
     .links a {
       display: block;
       margin-bottom: 5px;
     }
 
-  
-    
+
+
   }
