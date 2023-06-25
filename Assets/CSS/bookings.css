@@ -99,28 +99,38 @@ li a:hover {
     color: white;
   }
 
-
-
-  .form {
+  .main {
+    background-image: url('https://holiday2go.netlify.app/Assets/Images/main.gif');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    color: #ffffff;
   }
 
-  input[type=text],
-  input[type=date],
-  input[type=submit] {
-    margin: 10px 0 0 0;
-    border: 0;
-    box-shadow: 0 0 15px 4px rgb(139, 139, 139);
-    padding: 10px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .main-content {
+    text-align: center;
   }
 
+  .main-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .main-content #num {
+    color: red;
+  }
+
+
+  #num {
+    color: red;
+  }
+  .main-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
 
 
   @media (max-width: 768px) {
