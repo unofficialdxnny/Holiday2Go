@@ -100,7 +100,7 @@ li a:hover {
   }
 
   .main {
-    background-image: url('https://holiday2go.netlify.app/Assets/Images/main.gif');
+    background-image: url('https://cdn.dribbble.com/users/722246/screenshots/2737322/find-_-book-meeting-rooms.gif');
     background-size: cover;
     background-position: center;
     height: 50vh;
@@ -131,6 +131,27 @@ li a:hover {
     font-size: 18px;
     margin-bottom: 30px;
   }
+
+
+  button {
+
+    display: inline-block;
+    outline: none;
+  
+    padding: 0 16px;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    border: 2px solid #dddbda;
+    color: #0070d2;
+    line-height: 30px;
+  
+  
+  
+  }
+  
+  button:hover {
+    background-color: #aaaaaa; 
+  } 
 
 
   @media (max-width: 768px) {
