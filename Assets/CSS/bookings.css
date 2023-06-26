@@ -154,7 +154,7 @@ li a:hover {
   } 
 
   .form {
-    max-width: 400px;
+    max-width: auto;
     margin: 0 auto;
     padding: 20px;
     background-color: #f7f7f7;
