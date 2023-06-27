@@ -11,7 +11,6 @@
 }
 
 body {
-    background-color: #14171A;
     font-family: 'Satisfy', cursive;
     background-image: url("");
     background-repeat: no-repeat;
@@ -171,6 +170,13 @@ button:hover {
 
   
 }
+
+
+.dark-mode {
+  background-color: #14171A;
+  color: white;
+}
+
 
 
 @media (max-width: 768px) {
