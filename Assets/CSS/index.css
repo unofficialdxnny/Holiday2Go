@@ -17,6 +17,14 @@ body {
     background-position-x: center; 
     margin: 0;
     padding: 0;
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+  background-color: #14171A;
+  color: white;
+  
 }
 
 
@@ -91,7 +99,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ffffff;
+   
   }
 
   .main-content {
@@ -120,7 +128,7 @@ a {
     background-color: transparent;
     text-align: center;
     padding: 10px;
-    color: white;
+    
   }
 
 
@@ -172,10 +180,7 @@ button:hover {
 }
 
 
-.dark-mode {
-  background-color: #14171A;
-  color: white;
-}
+
 
 
 
