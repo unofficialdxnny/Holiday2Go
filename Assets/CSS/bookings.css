@@ -193,6 +193,20 @@ li a:hover {
   }
 
 
+  form input[type="reset"] {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  form input[type="reset"]:hover {
+    background-color: #d31a1a;
+  }
+
 
   @media (max-width: 768px) {
     .navbar {
