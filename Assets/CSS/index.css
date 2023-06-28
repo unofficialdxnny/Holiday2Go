@@ -176,37 +176,3 @@ button:hover {
 
 
 
-
-
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .links {
-    margin-top: 10px;
-  }
-
-  .links a {
-    display: block;
-    margin-bottom: 5px;
-  }
-
-
-  .gallery {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  
-    
-  }
-
-  
-  
-  .imgrow {
-    width: 100%;
-  }
-
-}
-
