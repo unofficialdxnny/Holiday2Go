@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+* {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #14171A;
+    font-family: 'Satisfy', cursive;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position-x: center; 
+    margin: 0;
+    color: white;
+    padding: 0;
+
+  }
