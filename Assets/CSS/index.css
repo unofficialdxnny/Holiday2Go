@@ -17,15 +17,10 @@ body {
     background-position-x: center; 
     margin: 0;
     padding: 0;
-    background-color: white;
-    color: black;
+    background-color: #14171A;
+    color: white;
 }
 
-.dark-mode {
-  background-color: #14171A;
-  color: white;
-  
-}
 
 
 .fade-in { 
@@ -128,7 +123,6 @@ a {
     background-color: transparent;
     text-align: center;
     padding: 10px;
-    color: black;
   }
 
 
