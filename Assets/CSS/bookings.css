@@ -154,6 +154,7 @@ li a:hover {
   } 
 
   .form {
+    
     margin: 0;
     padding: 20px;
     background-color: #f7f7f7;
@@ -170,6 +171,15 @@ li a:hover {
 
   form input[type="text"],
   form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 6px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  select {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
