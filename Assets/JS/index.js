@@ -4,24 +4,24 @@
   
 
 
-// function form_submit() {
-//   var inputs = document.forms["eticket"].getElementsByTagName("input");
+function form_submit() {
+  var inputs = document.forms["eticket"].getElementsByTagName("input");
   
-//   var isFormValid = true;
+  var isFormValid = true;
   
-//   for (var i = 0; i < inputs.length; i++) {
-//     if (inputs[i].hasAttribute("required") && inputs[i].value === "") {
-//       isFormValid = false;
-//     } else if (inputs[i].hasAttribute("required") && inputs[i].value !== "") {
-//       isFormValid = true;
-//     }
-//   }
+  for (var i = 0; i < inputs.length; i++) {
+    if (inputs[i].hasAttribute("required") && inputs[i].value === "") {
+      isFormValid = false;
+    } else if (inputs[i].hasAttribute("required") && inputs[i].value !== "") {
+      isFormValid = true;
+    }
+  }
   
-//   if (isFormValid) {
-//     alert("Form submitted successfully!");
-//     window.location.href = "gen.html";
-//   } else {
-//     alert("Please fill in all the required fields.");
-//   }
-// }
+  if (isFormValid) {
+    alert("Form submitted successfully!");
+    window.location.href = "gen.html";
+  } else {
+    alert("Please fill in all the required fields.");
+  }
+}
 
