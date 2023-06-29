@@ -33,7 +33,7 @@
     
         <br><br>
     <div class="form">
-      <form action="mailto:ahmeddanial324@gmail.com" method="post" enctype="text/plain">
+      <form name="eticket" action="" method="post" enctype="text/plain">
         <label for="fname">First Name</label>
         
         <input type="text" placeholder="First Name" required>
@@ -50,9 +50,9 @@
         
         <input type="text" placeholder="01234567891011" required>
 
-        <label for="pnum">Where would you like to go?</label>
+        <label for="where">Where would you like to go?</label>
         
-        <select id="cars" name="cars">
+        <select id="locations" name="locations">
 
           <option value="London">London</option>
           <option value="France">France</option>
@@ -63,7 +63,7 @@
         
         <input type="date" required>
         
-        <input type="submit">
+        <input type="submit" onclick="form_submit()">
         <br><br>
         <input type="reset">
 
@@ -76,6 +76,6 @@
             <p>&copy; 2023 <a href="#main">Holiday<span id="num">2</span>Go</a> All rights reserved.</p>
           </footer>
 
-
+<script src="./Assets/JS/index.js"></script>
 </body>
 </html>
