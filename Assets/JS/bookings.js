@@ -34,7 +34,7 @@ document.addEventListener('dragstart', (event) => {
     
     if (isFormValid) {
       alert("Form submitted successfully!");
-      localStorage.setItem("First Name", document.getElementById("name").value)
+      localStorage.setItem("Name", document.getElementById("name").value)
       localStorage.setItem("Email", document.getElementById("mail").value)
       localStorage.setItem("Phone", document.getElementById("phone").value)
       localStorage.setItem("Destination", document.getElementById("locations").value)

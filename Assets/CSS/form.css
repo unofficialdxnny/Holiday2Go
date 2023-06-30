@@ -81,16 +81,25 @@ body {
   }
 
 
-.eticket {
-  display: flex;
-  
-}
 
 
 #qrcode {
   display: flex;
   justify-content: left;
   align-items: left;
-  height: 500px;
+  width: 500px;
   background-color: bisque;
+}
+
+
+#ticket {
+  display: flex;
+  justify-content: center;
+  color: bisque;
+}
+
+#destination {
+  display: flex;
+  justify-content: center;
+  color: bisque;
 }

@@ -1,11 +1,10 @@
-function sleep(id, num) {
-    setTimeout(id, num);
-}
 
-const code = document.getElementById("qrcode")
 
-function show() {
-    document.getElementById("qrcode").style.visibility = "visible"
-}
+var ticketFor = "Ticket For " + localStorage.getItem("Name")
+document.getElementById("ticket").innerHTML = ticketFor
 
-setTimeout(show(), 10000)
+
+var destination = "This ticket is booked for a destination in " + localStorage.getItem("Destination")
+var when = " On " + localStorage.getItem("Date")
+document.getElementById("destination").innerHTML = destination + when
+
