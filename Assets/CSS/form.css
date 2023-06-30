@@ -40,9 +40,10 @@ body {
 
   #qrcode {
     display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
-    width: 15%;
+    left: 37%;
     
   }
 

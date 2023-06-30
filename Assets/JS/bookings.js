@@ -3,6 +3,12 @@ document.addEventListener('dragstart', (event) => {
   });
 
 
+  var fname = document.getElementById("fname")
+  var lname = document.getElementById("lname")
+
+
+  localStorage.setItem("First Name", document.getElementById("fname"))
+
   function form_submit() {
     var inputs = document.forms["eticket"].getElementsByTagName("input");
     
