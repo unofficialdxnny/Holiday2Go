@@ -79,3 +79,18 @@ body {
     font-size: 18px;
     margin-bottom: 30px;
   }
+
+
+.eticket {
+  display: flex;
+  
+}
+
+
+#qrcode {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 500px;
+  background-color: bisque;
+}
