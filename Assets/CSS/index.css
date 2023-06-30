@@ -150,29 +150,24 @@ button:hover {
 
 .gallery {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-
-  
 }
 
 .imgrow {
-  display: flex;
-  justify-content: space-between;
-  transition: transform 1s ease;
-  
+  flex: 200px;
+  margin: 10px;
+  transition: transform 0.3s ease;
 }
 
 .imgrow img {
-  width: 100%; 
+  width: 100%;
+  height: auto;
 }
 
 .imgrow:hover {
   transform: scale(0.95);
-
-  
 }
-
 
 
 
