@@ -19,6 +19,9 @@ document.addEventListener('dragstart', (event) => {
     if (isFormValid) {
       alert("Form submitted successfully!");
       window.location.href = "gen.html";
+
+      // document.location.href = 'https://github.com',true;
+
     } else {
       alert("Please fill in all the required fields.");
     }

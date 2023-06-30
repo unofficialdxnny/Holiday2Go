@@ -188,7 +188,7 @@ li a:hover {
     box-sizing: border-box;
   }
 
-  form input[type="submit"] {
+  form input[type="button"] {
     background-color: #4CAF50;
     color: white;
     padding: 10px 15px;
@@ -198,7 +198,7 @@ li a:hover {
     width: 100%;
   }
 
-  form input[type="submit"]:hover {
+  form input[type="button"]:hover {
     background-color: #45a049;
   }
 
