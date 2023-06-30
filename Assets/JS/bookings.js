@@ -3,12 +3,22 @@ document.addEventListener('dragstart', (event) => {
   });
 
 
-  var fname = document.getElementById("fname")
-  var lname = document.getElementById("lname")
+  // var fname = document.getElementById("fname")
+  // var lname = document.getElementById("lname")
 
 
-  localStorage.setItem("First Name", document.getElementById("fname"))
+  // localStorage.setItem("First Name", document.getElementById("fname"))
 
+
+
+
+
+
+
+
+
+
+  
   function form_submit() {
     var inputs = document.forms["eticket"].getElementsByTagName("input");
     
@@ -24,6 +34,8 @@ document.addEventListener('dragstart', (event) => {
     
     if (isFormValid) {
       alert("Form submitted successfully!");
+      localStorage.setItem("First Name", document.getElementById("fname").value)
+
       window.location.href = "gen.html";
 
       // document.location.href = 'https://github.com',true;
