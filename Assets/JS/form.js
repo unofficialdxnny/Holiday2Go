@@ -13,9 +13,11 @@ var img = document.getElementById("qrcode")
 
 
 if (localStorage.getItem("Destination") === 'London') {
-    img.src = "https://holiday2go.netlify.app/Assets/Images/1895e020b5a2f817d09bb14f8910afef.png"
+    img.src = "https://holiday2go.netlify.app/Assets/Images/London.png"
 
 } else if (localStorage.getItem("Destination") === 'France') {
-    img.src = "https://holiday2go.netlify.app/Assets/Images/f8ae340c9da0cccc1dddd4026bf33e67.png"
+    img.src = "https://holiday2go.netlify.app/Assets/Images/France.png"
 
+} else if (localStorage.getItem("Destination") === 'Belgium') {
+    img.src = "https://holiday2go.netlify.app/Assets/Images/Belgium.png"
 }
