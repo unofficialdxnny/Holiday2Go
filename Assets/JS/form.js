@@ -23,6 +23,8 @@ if (localStorage.getItem("Destination") === 'London') {
 }
 
 
+localStorage.clear()
+
 window.addEventListener('load', function() {
     var preloader = document.getElementById('preloader');
     var content = document.getElementById('content');
