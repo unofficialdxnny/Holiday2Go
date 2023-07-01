@@ -14,16 +14,13 @@
 </div>
 <div id="content">
 
-  <script>
-    if (!localStorage.getItem("Destination")) {
-      window.location.href("https://holiday2go.netlify.app/bookings")
-    }
-  </script>
+  
   
     <section class="main">
         <div class="main-content">
 
           <h1>Holiday<span id="num">2</span>Go</h1>
+          <p1 class="note">If ticket is not visible please book again <a href="https://holiday2go.netlify.app">on this page.</a></p1>
 
         
        
@@ -35,11 +32,13 @@
 
       <!-- <img id="qrcode" style="visibility: hidden; width: fit-content; height: 500px; display: flex; justify-content: center; align-items: center;" src="https://holiday2go.netlify.app/Assets/Images/f8ae340c9da0cccc1dddd4026bf33e67.png"> -->
 
-      <h1 class="hidden" id="ticket"></h1>
+      <h1 id="ticket"></h1>
       <p id="destination"></p>
       <div class="eticket">
     
         <img id="qrcode">
+
+
 
         
       </div>
