@@ -20,6 +20,8 @@ if (localStorage.getItem("Destination") === 'London') {
 
 } else if (localStorage.getItem("Destination") === 'Belgium') {
     img.src = "https://holiday2go.netlify.app/Assets/Images/ea1964466dfc193908b09c66370310d0.png"
+} else {
+    
 }
 
 
