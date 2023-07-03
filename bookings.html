@@ -59,9 +59,12 @@
             <label for="people">How many people?</label>
             <input type="range" value="" min="1" max="7" oninput="displaySliderValue(this);">
             
-            <label for="date">Date</label>
+            <label for="date">Leave & Return Date</label>
+            <input id="date" type="date" required>
             <input id="date" type="date" required>
             
+
+            <label for="price">Price</label>
             <input readonly type="text" name="price" id="price" placeholder="£0.00">
         
             <input type="button" onclick="form_submit()">
