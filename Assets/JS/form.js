@@ -26,33 +26,33 @@ if (localStorage.getItem("Destination") === 'London') {
 
 
 
-const axios = require('axios');
+// const axios = require('axios');
 
-function sendSimpleMessage() {
-    axios.post(
-        "https://api.mailgun.net/v3/sandboxed3da58e5fab401cb839cd13200aab0e.mailgun.org/messages",
-        {
-            from: "Mailgun Sandbox <postmaster@sandboxed3da58e5fab401cb839cd13200aab0e.mailgun.org>",
-            to: `Danial Ahmed <${localStorage.getItem(Email)}>`,
-            subject: "Hello Danial Ahmed",
-            text: "Congratulations Danial Ahmed, you just sent an email with Mailgun! You are truly awesome!"
-        },
-        {
-            auth: {
-                username: "api",
-                password: "23987d9551a9184304ab5ac44907335c-6d8d428c-99374baa"
-            }
-        }
-    )
-    .then(response => {
-        console.log("Email sent successfully!");
-    })
-    .catch(error => {
-        console.error("An error occurred while sending the email:", error);
-    });
-}
+// function sendSimpleMessage() {
+//     axios.post(
+//         "https://api.mailgun.net/v3/sandboxed3da58e5fab401cb839cd13200aab0e.mailgun.org/messages",
+//         {
+//             from: "Mailgun Sandbox <postmaster@sandboxed3da58e5fab401cb839cd13200aab0e.mailgun.org>",
+//             to: `Danial Ahmed <${localStorage.getItem(Email)}>`,
+//             subject: "Hello Danial Ahmed",
+//             text: "Congratulations Danial Ahmed, you just sent an email with Mailgun! You are truly awesome!"
+//         },
+//         {
+//             auth: {
+//                 username: "api",
+//                 password: "23987d9551a9184304ab5ac44907335c-6d8d428c-99374baa"
+//             }
+//         }
+//     )
+//     .then(response => {
+//         console.log("Email sent successfully!");
+//     })
+//     .catch(error => {
+//         console.error("An error occurred while sending the email:", error);
+//     });
+// }
 
-sendSimpleMessage();
+// sendSimpleMessage();
 
 
 
