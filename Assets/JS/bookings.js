@@ -11,8 +11,23 @@ document.addEventListener('dragstart', (event) => {
 
 
 
+  function updatePricePlaceholder() {
+    var locationsSelect = document.getElementById("locations");
+    var priceInput = document.getElementById("price");
 
+    var selectedOption = locationsSelect.options[locationsSelect.selectedIndex].value;
+    if (selectedOption === "London") {
+      priceInput.placeholder = "£100.00";
+    } else if (selectedOption === "France") {
+      priceInput.placeholder = "£200.00";
+    } else if (selectedOption === "Belgium") {
+      priceInput.placeholder = "£150.00";
+    } else {
+      priceInput.placeholder = "£0.00";
+    }
+  }
 
+ 
 
 
 
@@ -51,6 +66,7 @@ document.addEventListener('dragstart', (event) => {
   }
   
   
+
 
   window.addEventListener('load', function() {
     var preloader = document.getElementById('preloader');

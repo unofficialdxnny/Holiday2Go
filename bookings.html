@@ -37,43 +37,38 @@
         </section>
     
         <br><br>
-    <div class="form">
-      <form name="eticket" action="" method="post" enctype="text/plain">
-        <label for="name">Full Name</label>
+        <div class="form">
+          <form name="eticket" action="" method="post" enctype="text/plain">
+            <label for="name">Full Name</label>
+            <input id="name" type="text" placeholder="Full Name" required>
+            
+            <label id="email" for="email">Email</label>
+            <input id="mail" type="text" placeholder="user@domain.com" required>
+            
+            <label id="pnum" for="pnum">Phone Number</label>
+            <input id="phone" type="text" placeholder="01234567891011" required>
         
-        <input id="name" type="text" placeholder="Full Name" required>
+            <label id="where" for="where">Where would you like to go?</label>
+            <select id="locations" name="locations" onchange="updatePricePlaceholder()">
+              <option value=""></option>
+              <option value="London">London</option>
+              <option value="France">France</option>
+              <option value="Belgium">Belgium</option>
+            </select>
         
-        <label id="email" for="email">Email</label>
+            <label for="people">How many people?</label>
+            <input type="range" value="" min="1" max="7" oninput="displaySliderValue(this);">
+            
+            <label for="date">Date</label>
+            <input id="date" type="date" required>
+            
+            <input readonly type="text" name="price" id="price" placeholder="£0.00">
         
-        <input id="mail" type="text" placeholder="user@domain.com" required>
-        
-        <label id="pnum" for="pnum">Phone Number</label>
-        
-        <input id="phone" type="text" placeholder="01234567891011" required>
-
-        <label id="where" for="where">Where would you like to go?</label>
-        
-        <select id="locations" name="locations">
-
-          <option value="London">London</option>
-          <option value="France">France</option>
-          <option value="Belgium">Belgium</option>
-        </select>
-
-        <label for="people">How many people?</label>
-     
-        <input type="range" value="" min="1" max="7" oninput="displaySliderValue(this);">
-        
-        <label for="date">Date</label>
-        
-        <input id="date" type="date" required>
-        
-        <input type="button" onclick="form_submit()">
-        <br><br>
-        <input type="reset">
-
-      </form>
-    </div>
+            <input type="button" onclick="form_submit()">
+            <br><br>
+            <input type="reset">
+          </form>
+        </div>
     
 
     <!-- <script>
