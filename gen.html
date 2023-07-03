@@ -6,6 +6,8 @@
     <title>Holiday2Go | Ticket</title>
     <link rel="shortcut icon" href="https://github.com/unofficialdxnny/Holiday2Go/blob/main/Assets/Images/Favicon.ico?raw=true" width="" type="image/x-icon">
     <link rel="stylesheet" href="./Assets/CSS/form.css">
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+
 </head>
 <body class="fade-in">
 
@@ -46,6 +48,20 @@
       
 
       </div>
+
+
+      <!-- <py-script>
+        def send_simple_message():
+
+	return requests.post(
+		"https://api.mailgun.net/v3/sandboxed3da58e5fab401cb839cd13200aab0e.mailgun.org/messages",
+		auth=("api", "23987d9551a9184304ab5ac44907335c-6d8d428c-99374baa"),
+		data={"from": "Mailgun Sandbox <postmaster@sandboxed3da58e5fab401cb839cd13200aab0e.mailgun.org>",
+			"to": "Danial Ahmed <ahmeddanial324@gmail.com>",
+			"subject": "Hello Danial Ahmed",
+			"text": "Congratulations Danial Ahmed, you just sent an email with Mailgun!  You are truly awesome!"})
+      </py-script> -->
+      <script defer src="https://pyscript.net/latest/pyscript.js"></script>
       <script src="./Assets/JS/form.js"></script>
 </body>
 </html>
