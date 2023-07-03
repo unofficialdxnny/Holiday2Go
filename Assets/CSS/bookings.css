@@ -188,22 +188,25 @@ li a:hover {
     box-sizing: border-box;
   }
 
-  form input[type="button"] {
-    background-color: #4CAF50;
+
+
+
+
+
+button {
+  background-color: #4CAF50;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     width: 100%;
-  }
+}
 
+button:hover {
+  background-color: #45a049;
 
-
-  form input[type="button"]:hover {
-    background-color: #45a049;
-  }
-
+}
 
   form input[type="range"] {
     padding: 10px 15px;
