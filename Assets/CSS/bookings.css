@@ -198,10 +198,17 @@ li a:hover {
     width: 100%;
   }
 
+
+
   form input[type="button"]:hover {
     background-color: #45a049;
   }
 
+
+  form input[type="range"] {
+    padding: 10px 15px;
+    width: 25%;
+  }
 
   form input[type="reset"] {
     background-color: #ff0000;
