@@ -26,6 +26,38 @@ if (localStorage.getItem("Destination") === 'London') {
 
 
 
+
+      var recipient = localStorage.getItem("Email")
+      var subject = "Ticket From Holiday2Go"
+      var body = `The below is the ticket for ${localStorage.getItem("Name")}`
+
+      var data = {
+        from: "ahmeddanial324@gmail.com",
+        to: recipient,
+        subject: subject,
+        text: body
+      };
+
+     function sendEmail() {
+  Email.send({
+    Host: "smtp.elasticemail.com",
+    Username: "ahmeddanial324@gmail.com",
+    Password: "DF6F77D2A421FEAAD54CAC80781FDF91319C",
+    To: recipient,
+    From: "ahmeddanial324@gmail.com",
+    Subject: subject,
+    Body: body
+  })
+  .then(function(message) {
+    alert("Email sent successfully!");
+  })
+  .catch(function(error) {
+    console.error("Error:", error);
+    alert("An error occurred while sending the email.");
+  });
+}
+
+
 // const axios = require('axios');
 
 // function sendSimpleMessage() {
