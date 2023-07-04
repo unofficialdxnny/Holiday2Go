@@ -120,7 +120,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #14171A;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,8 +128,8 @@ body {
 }
 
 #loader {
-  border: 16px solid #f3f3f3;
-  border-top: 16px solid #3498db;
+  border: 16px solid transparent;
+  border-top: 16px solid white;
   border-radius: 50%;
   width: 120px;
   height: 120px;
@@ -144,6 +144,7 @@ body {
 #content {
   display: none;
 }
+
 
 
 a {
